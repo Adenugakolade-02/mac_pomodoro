@@ -8,8 +8,8 @@ class ThemeClass{
 
   static ThemeData lightTheme = ThemeData(
     // colorScheme: ColorScheme.fromSeed(seedColor: actionColor),
-    backgroundColor: backgroundColour,
-    primaryColor: actionColor,
+    scaffoldBackgroundColor: backgroundColour,
+    // primaryColor: actionColor,
     textTheme: const TextTheme(
       headline1: TextStyle(fontSize: 70, fontFamily: "Roboto Flex", fontVariations: <FontVariation>[FontVariation('wght', 300.0)] ,color: textColor),
       headline2: TextStyle(fontSize: 25, fontFamily: "Montserrat", fontWeight: FontWeight.w600, color: textColor),
@@ -17,6 +17,6 @@ class ThemeClass{
       bodyText2: TextStyle(fontSize: 20, fontFamily: "Montserrat", fontWeight: FontWeight.w200, color: textColor),
       button: TextStyle(fontSize: 25, fontFamily: "Roboto Flex", fontVariations: <FontVariation>[FontVariation('wght', 400.0)] ,color: textColor),
     ),
-    useMaterial3: true
+    // useMaterial3: true
   );
 }
